@@ -154,8 +154,8 @@ Para contribuir com o projeto:
 ## 📞 Suporte
 
 Para dúvidas ou suporte, entre em contato:
-- Email: contato@moniquebot.com
-- Website: [moniquebot.com](https://moniquebot.com)
+- Email: padrao@dev-music.com
+- Website: [moniquebot.com](https://moniquebot.com.br)
 
 ---
 
