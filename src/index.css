@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Thunder Font */
+@font-face {
+  font-family: 'Thunder';
+  src: url('./assets/fonts/Thunder-Regular.woff2') format('woff2'),
+       url('./assets/fonts/Thunder-Regular.woff') format('woff'),
+       url('./assets/fonts/Thunder-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Thunder';
+  src: url('./assets/fonts/Thunder-Bold.woff2') format('woff2'),
+       url('./assets/fonts/Thunder-Bold.woff') format('woff'),
+       url('./assets/fonts/Thunder-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Thunder', 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-8 py-4 rounded-xl hover:bg-secondary transition-all duration-300 font-semibold text-lg shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-primary text-primary px-8 py-4 rounded-xl hover:bg-primary hover:text-white transition-all duration-300 font-semibold text-lg;
+  }
+  
+  .btn-accent {
+    @apply bg-accent text-dark px-8 py-4 rounded-xl hover:bg-green-400 transition-all duration-300 font-semibold text-lg shadow-lg hover:shadow-xl;
+  }
+  
+  .section-padding {
+    @apply py-20;
+  }
+  
+  .container-custom {
+    @apply container mx-auto px-4;
+  }
+}
+
+@media print {
+  header,
+  footer,
+  .btn-secondary {
+    display: none !important;
+  }
+}
