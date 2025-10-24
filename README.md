@@ -155,7 +155,7 @@ Para contribuir com o projeto:
 
 Para dúvidas ou suporte, entre em contato:
 - Email: padrao@dev-music.com
-- Website: [moniquebot.com](https://moniquebot.com.br)
+- Website: [moniquebot.com.br](https://moniquebot.com.br)
 
 ---
 
